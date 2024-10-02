@@ -1,13 +1,3 @@
-// 1. Membalik string dengan angka tetap di akhir
-function reverseStringWithNumber(input) {
-  let letters = input.replace(/[0-9]/g, ""); // Hapus angka
-  let number = input.replace(/[^0-9]/g, ""); // Ambil angka
-
-  let reversedLetters = letters.split("").reverse().join("");
-  return reversedLetters + number;
-}
-
-// 2. Mencari kata terpanjang dari kalimat
 function longest(sentence) {
   const words = sentence.split(" ");
   let longestWord = "";
@@ -69,3 +59,5 @@ const matrix = [
   [7, 8, 9],
 ];
 console.log(diagonalDifference(matrix)); // Output: 3
+
+/******  a25f5ebb-92b9-4e9b-a3be-7640f89e6413  *******/
